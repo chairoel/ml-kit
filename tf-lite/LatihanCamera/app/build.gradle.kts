@@ -32,6 +32,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        mlModelBinding = true
     }
 }
 
@@ -49,4 +50,8 @@ dependencies {
     implementation("androidx.camera:camera-camera2:$cameraxVersion")
     implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
     implementation("androidx.camera:camera-view:$cameraxVersion")
+
+    //default
+    implementation("org.tensorflow:tensorflow-lite-support:0.1.0")
+    implementation("org.tensorflow:tensorflow-lite-metadata:0.1.0")
 }
