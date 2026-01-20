@@ -1,6 +1,6 @@
 package com.dicoding.picodiploma.mycamera.helper
 
-import org.tensorflow.lite.task.vision.classifier.Classifications
+import org.tensorflow.lite.task.gms.vision.classifier.Classifications
 
 interface ClassifierListener {
     fun onError(error: String)
