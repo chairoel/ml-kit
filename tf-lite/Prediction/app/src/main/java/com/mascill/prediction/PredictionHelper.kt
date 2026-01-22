@@ -1,4 +1,4 @@
-package com.mascill.latihantensorflowliteprediction
+package com.mascill.prediction
 
 import android.content.Context
 import android.content.res.AssetManager

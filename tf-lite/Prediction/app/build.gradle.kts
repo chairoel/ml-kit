@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mascill.latihantensorflowliteprediction"
+    namespace = "com.mascill.prediction"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.mascill.latihantensorflowliteprediction"
+        applicationId = "com.mascill.prediction"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

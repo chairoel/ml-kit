@@ -1,4 +1,4 @@
-package com.mascill.latihantensorflowliteprediction
+package com.mascill.prediction
 
 import org.junit.Test
 

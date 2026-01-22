@@ -1,9 +1,10 @@
-package com.mascill.latihantensorflowliteprediction
+package com.mascill.prediction
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.mascill.latihantensorflowliteprediction.databinding.ActivityMainBinding
+import com.mascill.prediction.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 
