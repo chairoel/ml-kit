@@ -67,7 +67,9 @@ class ObjectDetectorHelper(
         inferenceTime = SystemClock.uptimeMillis() - inferenceTime
         detectorListener?.onResults(
             results,
-            inferenceTime
+            inferenceTime,
+            tensorImage.height,
+            tensorImage.width
         )
     }
 

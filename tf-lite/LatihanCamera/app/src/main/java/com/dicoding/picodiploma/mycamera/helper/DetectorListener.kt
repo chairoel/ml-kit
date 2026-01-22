@@ -6,6 +6,8 @@ interface DetectorListener {
     fun onError(error: String)
     fun onResults(
         results: MutableList<Detection>?,
-        inferenceTime: Long
+        inferenceTime: Long,
+        imageHeight: Int,
+        imageWidth: Int
     )
 }
